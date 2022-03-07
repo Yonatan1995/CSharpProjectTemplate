@@ -19,7 +19,6 @@
 
   <ItemGroup>
     <Folder Include="main\bussinessProcess\" />
-    <Folder Include="main\pages\" />
     <Folder Include="test\tests\" />
   </ItemGroup>
 

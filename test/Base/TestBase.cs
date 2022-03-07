@@ -18,7 +18,7 @@ namespace CSharpProjectTemplate.test.Base
         [SetUp]
         public void setUp()
         {
-            //Log.info("Setting up driver");
+            Logger.info("Setting up driver");
             initDriver();
             new WaitForHelper(driver).implicitWait();
         }
@@ -33,7 +33,7 @@ namespace CSharpProjectTemplate.test.Base
         [TearDown]
         public void tearDown()
         {
-            // Log.info("Closing driver");
+            Logger.info("Closing driver");
             //driver.Close();
             driver.Quit();
         }

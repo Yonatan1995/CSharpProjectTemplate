@@ -31,7 +31,7 @@ namespace CSharpProjectTemplate.main.utils
             switch (Constants.PLATFORM.ToLower())
             {
                 case "web": {
-                        //Log.info("Initializing Web Driver");
+                        Logger.info("Initializing Web Driver");
                         try
                         {
                             setWebDriver();
@@ -40,12 +40,12 @@ namespace CSharpProjectTemplate.main.utils
                         catch (Exception e)
                         {
                             Console.WriteLine(e.StackTrace);
-                            //Log.error("Web Driver Failure", e);
+                            Logger.error("Web Driver Failure", e);
                         }
                         break;
                     }
                 case "desktop": {
-                        //Log.info("Initializing Windows Driver");
+                        Logger.info("Initializing Windows Driver");
                         try
                         {
                             setWindowsDriver();
@@ -53,12 +53,12 @@ namespace CSharpProjectTemplate.main.utils
                         catch (Exception e)
                         {
                             Console.WriteLine(e.StackTrace);
-                            //Log.error("Windows Driver Failure", e);
+                            Logger.error("Windows Driver Failure", e);
                         }
                         break;
                     }
                 case "mobile": {
-                        //Log.info("Initializing Appium Driver");
+                        Logger.info("Initializing Appium Driver");
                         try
                         {
                             setAppiumDriver();
@@ -66,7 +66,7 @@ namespace CSharpProjectTemplate.main.utils
                         catch (Exception e)
                         {
                             Console.WriteLine(e.StackTrace);
-                            //Log.error("Android Driver Failure", e);
+                            Logger.error("Android Driver Failure", e);
                         }
                         break;
                     }
@@ -83,8 +83,7 @@ namespace CSharpProjectTemplate.main.utils
             switch (Constants.BROWSER_TYPE.ToLower())
             {
                 case "chrome": {
-                        //Log.info("Found chrome as Browser");
-                        // WebDriverManager.chromedriver().setup();
+                        Logger.info("Found chrome as Browser");
                         new WebDriverManager.DriverManager().SetUpDriver(new ChromeConfig());
                         driver = new ChromeDriver();
                         break;
@@ -95,19 +94,19 @@ namespace CSharpProjectTemplate.main.utils
                         break;
                     }
                 case "firefox": {
-                        //Log.info("Found firefox as Browser");
+                        Logger.info("Found firefox as Browser");
                         new WebDriverManager.DriverManager().SetUpDriver(new FirefoxConfig());
                         driver = new FirefoxDriver();
                         break;
                     }
                 case "ie": {
-                        // Log.info("Found IE as Browser");
+                        Logger.info("Found IE as Browser");
                         new WebDriverManager.DriverManager().SetUpDriver(new InternetExplorerConfig());
                         driver = new InternetExplorerDriver();
                         break;
                     }
                 case "opera": {
-                        //Log.info("Found opera as Browser");
+                        Logger.info("Found opera as Browser");
                         new WebDriverManager.DriverManager().SetUpDriver(new OperaConfig());
                         driver = new OperaDriver();
                         break;

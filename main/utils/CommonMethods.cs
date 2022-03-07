@@ -102,7 +102,7 @@ namespace CSharpProjectTemplate.main.utils
             catch (UnexpectedTagNameException e)
             {
                 Console.WriteLine( e.StackTrace);
-                //Log.error(Constants.LOG_ERROR_MESSAGE, e);
+                Logger.error(Constants.LOG_ERROR_MESSAGE, e);
             }
         }
 
@@ -128,7 +128,7 @@ namespace CSharpProjectTemplate.main.utils
             catch (UnexpectedTagNameException e)
             {
                 Console.WriteLine(e.StackTrace);
-                //Log.error(Constants.LOG_ERROR_MESSAGE, e);
+                Logger.error(Constants.LOG_ERROR_MESSAGE, e);
             }
         }
 
@@ -147,7 +147,7 @@ namespace CSharpProjectTemplate.main.utils
             catch (NoAlertPresentException e)
             {
                 Console.WriteLine(e.StackTrace);
-                //Log.error(Constants.LOG_ERROR_MESSAGE, e);
+                Logger.error(Constants.LOG_ERROR_MESSAGE, e);
             }
         }
 
@@ -165,7 +165,7 @@ namespace CSharpProjectTemplate.main.utils
             catch (NoAlertPresentException e)
             {
                 Console.WriteLine(e.StackTrace);
-                //Log.error(Constants.LOG_ERROR_MESSAGE, e);
+                Logger.error(Constants.LOG_ERROR_MESSAGE, e);
             }
         }
 
@@ -186,7 +186,7 @@ namespace CSharpProjectTemplate.main.utils
             catch (NoSuchFrameException e)
             {
                 Console.WriteLine(e.StackTrace);
-                //Log.error(Constants.LOG_ERROR_MESSAGE, e);
+                Logger.error(Constants.LOG_ERROR_MESSAGE, e);
             }
         }
 
@@ -207,7 +207,7 @@ namespace CSharpProjectTemplate.main.utils
             catch (NoSuchFrameException e)
             {
                 Console.WriteLine(e.StackTrace);
-                //Log.error(Constants.LOG_ERROR_MESSAGE, e);
+                Logger.error(Constants.LOG_ERROR_MESSAGE, e);
             }
         }
 
@@ -228,7 +228,7 @@ namespace CSharpProjectTemplate.main.utils
             catch (NoSuchFrameException e)
             {
                 Console.WriteLine(e.StackTrace);
-                //Log.error(Constants.LOG_ERROR_MESSAGE, e);
+                Logger.error(Constants.LOG_ERROR_MESSAGE, e);
             }
         }
 
@@ -431,7 +431,7 @@ namespace CSharpProjectTemplate.main.utils
          *
          * @param fileName
          */
-        
+
         //public static byte[] takeScreenShot(String fileName)
         //{
         //    ITakesScreenshot ts = (ITakesScreenshot)driver;
@@ -446,7 +446,7 @@ namespace CSharpProjectTemplate.main.utils
         //    catch (IOException e)
         //    {
         //        Console.WriteLine(e.StackTrace);
-        //        //Log.error(Constants.LOG_ERROR_MESSAGE, e);
+        //        Logger.error(Constants.LOG_ERROR_MESSAGE, e);
         //    }
 
         //    return picBytes;
