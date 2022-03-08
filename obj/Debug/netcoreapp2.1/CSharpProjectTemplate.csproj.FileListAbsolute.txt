@@ -18,3 +18,4 @@ C:\Users\Yonat\Desktop\CSharpProjectTemplate\CSharpProjectTemplate\bin\Debug\net
 C:\Users\Yonat\Desktop\CSharpProjectTemplate\CSharpProjectTemplate\bin\Debug\netcoreapp2.1\nunit.engine.api.dll
 C:\Users\Yonat\Desktop\CSharpProjectTemplate\CSharpProjectTemplate\bin\Debug\netcoreapp2.1\nunit.engine.core.dll
 C:\Users\Yonat\Desktop\CSharpProjectTemplate\CSharpProjectTemplate\bin\Debug\netcoreapp2.1\testcentric.engine.metadata.dll
+C:\Users\Yonat\Desktop\CSharpProjectTemplate\CSharpProjectTemplate\bin\Debug\netcoreapp2.1\CSharpProjectTemplate.dll.config

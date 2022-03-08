@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
+using System.Xml;
 
 namespace CSharpProjectTemplate.main.utils
 {
@@ -10,19 +11,6 @@ namespace CSharpProjectTemplate.main.utils
     */
     class PropertyReader
     {
-
-        /**
-         * This method reads propertyName from "config.properties" file.
-         * returns the value of the given key.
-         *
-         * @param propertyName the property to read from.
-         * @return the property string value.
-         */
-        //public static String readConfigItem(String propertyName)
-        //{
-        //    return readItemFromFile("config path", propertyName);
-        //}
-
         /**
          * This method reads propertyName from "elementsRepo.properties" file.
          * returns the value of the given key.
@@ -30,10 +18,10 @@ namespace CSharpProjectTemplate.main.utils
          * @param propertyName the property to read from.
          * @return the property string value.
          */
-        //public static String readElementsRepoItem(String propertyName)
-        //{
-        //    return readItemFromFile("src/main/resources/elementsRepo.properties", propertyName);
-        //}
+        public static String readElementsRepoItem(String propertyName)
+        {
+            return readItemFromFile("C:\\Users\\Yonat\\Desktop\\CSharpProjectTemplate\\CSharpProjectTemplate\\main\\resources\\elementsRepo.xml", propertyName);
+        }
 
         /**
          * This method loads the properties file using given path and return the value of the given key.
@@ -42,20 +30,35 @@ namespace CSharpProjectTemplate.main.utils
          * @param propertyName the property to read from.
          * @return the property string value.
          */
-        //public static String readItemFromFile(String path, String propertyName)
-        //{
-        //    Properties p = new Properties();
-        //    try
-        //    {
-        //        FileInputStream inputFile = new FileInputStream(path);
-        //        p.load(inputFile);
-        //    }
-        //    catch (IOException e)
-        //    {
-        //        e.printStackTrace();
-        //    }
-
-        //    return p.getProperty(propertyName);
-        //}
+        public static String readItemFromFile(String path, String propertyName)
+        {
+            XmlDocument doc = new XmlDocument();
+            doc.Load(path);
+            //XmlNodeList nodes = doc.SelectNodes("props/key");
+            try
+            {
+                XmlNode node = doc.DocumentElement.SelectSingleNode("/keys/" + propertyName + "");
+                return node.InnerText;
+                //foreach (XmlNode node in nodes)
+                //{
+                //    XmlAttributeCollection nodeAtt = node.Attributes;
+                //    if (nodeAtt["name"].Value.ToString() == propertyName)
+                //    {
+                //        XmlDocument childNode = new XmlDocument();
+                //        childNode.LoadXml(node.OuterXml);
+                //        return childNode.SelectSingleNode("key/value").InnerText;
+                //    }
+                //    else
+                //    {
+                //        return "did not match any documents";
+                //    }
+            //}
+            }
+            catch (IOException e)
+            {
+                Console.WriteLine(e.StackTrace);
+            }
+            return "No key value pair found";
+        }
     }
 }

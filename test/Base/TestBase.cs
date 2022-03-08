@@ -20,13 +20,24 @@ namespace CSharpProjectTemplate.test.Base
         {
             Logger.info("Setting up driver");
             initDriver();
+            switch (Constants.PLATFORM.ToLower())
+            {
+                case "web":
+                    ManagePages.initWebPages();
+                    Logger.info("Initializing web pages");
+                    break;
+                case "desktop":
+                    ManagePages.initDesktopPages();
+                    Logger.info("Initializing desktop pages");
+                    break;
+                case "mobile":
+                    ManagePages.initMobilePages();
+                    Logger.info("Initializing mobile pages");
+                    break;
+            }
             new WaitForHelper(driver).implicitWait();
         }
-        [Test]
-        public static void fun()
-        {
-            Console.Write("hello");
-        }
+
         /**
          * This method is a teardown method used to quit driver after each test class.
          */

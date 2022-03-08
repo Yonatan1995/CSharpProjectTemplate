@@ -34,6 +34,9 @@ namespace CSharpProjectTemplate.main.utils
 
         // Desktop
 
+        // Windows Calculator.
+        public const String EXPECTED_CALC_RESULT = "Display is 11";
+
         // Application path.
         public const String APP_PATH = "Microsoft.WindowsCalculator_8wekyb3d8bbwe!App";
 

@@ -17,9 +17,4 @@
     <PackageReference Include="WebDriverManager" Version="2.12.3" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="main\bussinessProcess\" />
-    <Folder Include="test\tests\" />
-  </ItemGroup>
-
 </Project>

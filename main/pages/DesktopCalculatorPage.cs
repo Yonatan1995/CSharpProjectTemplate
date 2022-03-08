@@ -1,4 +1,5 @@
 ﻿using CSharpProjectTemplate.main.Base;
+using CSharpProjectTemplate.main.utils;
 using OpenQA.Selenium;
 using System;
 using System.Collections.Generic;
@@ -47,8 +48,8 @@ namespace CSharpProjectTemplate.main.pages
          */
         public String getResult()
         {
-            return driver.FindElement(By.XPath(PropertyReader.readElementsRepoItem("result_xpath")))
-                    .getText().replace("Display is:", "").trim();
+            return driver.FindElement(By.XPath(ElementsRepoConstants.result_xpath))
+                    .Text.Replace("Display is:", "").Trim();
         }
 
         /**
@@ -58,7 +59,7 @@ namespace CSharpProjectTemplate.main.pages
          */
         public IWebElement getClear()
         {
-            return driver.FindElement(By.XPath(PropertyReader.readElementsRepoItem("clear_button_xpath")));
+            return driver.FindElement(By.XPath(ElementsRepoConstants.clear_button_xpath));
         }
     }
 }
