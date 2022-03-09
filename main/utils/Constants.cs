@@ -14,7 +14,7 @@ namespace CSharpProjectTemplate.main.utils
         public const String LOG_ERROR_MESSAGE = "Error accrued: ";
 
         // Platform options: Web, Desktop, Mobile.
-        public  const String PLATFORM = "web";
+        public  const String PLATFORM = "Web";
 
         // Driver Implicit wait time(seconds).
         public  const int IMPLICIT_WAIT_TIME = 10;

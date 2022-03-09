@@ -1,0 +1,48 @@
+{
+  "uuid": "e8492d63-28cb-47a0-ba1d-407468a3a55a-tc-0-1002",
+  "name": "CSharpProjectTemplate.test.tests.TestLoginSample.login",
+  "children": [
+    "c6b8e3e9-2edc-48a0-aebc-352f8f70afb4-tr-0-1003"
+  ],
+  "befores": [
+    {
+      "name": "setUp",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.NullReferenceException : Object reference not set to an instance of an object.\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at CSharpProjectTemplate.main.utils.WaitForHelper.implicitWait() in C:\\Users\\Yonat\\Desktop\\CSharpProjectTemplate\\CSharpProjectTemplate\\main\\utils\\WaitForHelper.cs:line 28\r\n   at CSharpProjectTemplate.test.Base.TestBase.setUp() in C:\\Users\\Yonat\\Desktop\\CSharpProjectTemplate\\CSharpProjectTemplate\\test\\Base\\TestBase.cs:line 38\r\n--TearDown\r\n   at CSharpProjectTemplate.test.Base.TestBase.tearDown() in C:\\Users\\Yonat\\Desktop\\CSharpProjectTemplate\\CSharpProjectTemplate\\test\\Base\\TestBase.cs:line 49"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1646813909027,
+      "stop": 1646813909027
+    }
+  ],
+  "afters": [
+    {
+      "name": "tearDown",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.NullReferenceException : Object reference not set to an instance of an object.\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at CSharpProjectTemplate.main.utils.WaitForHelper.implicitWait() in C:\\Users\\Yonat\\Desktop\\CSharpProjectTemplate\\CSharpProjectTemplate\\main\\utils\\WaitForHelper.cs:line 28\r\n   at CSharpProjectTemplate.test.Base.TestBase.setUp() in C:\\Users\\Yonat\\Desktop\\CSharpProjectTemplate\\CSharpProjectTemplate\\test\\Base\\TestBase.cs:line 38\r\n--TearDown\r\n   at CSharpProjectTemplate.test.Base.TestBase.tearDown() in C:\\Users\\Yonat\\Desktop\\CSharpProjectTemplate\\CSharpProjectTemplate\\test\\Base\\TestBase.cs:line 49"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1646813909027,
+      "stop": 1646813909027
+    }
+  ],
+  "links": [],
+  "start": 1646813906988,
+  "stop": 1646813909032
+}

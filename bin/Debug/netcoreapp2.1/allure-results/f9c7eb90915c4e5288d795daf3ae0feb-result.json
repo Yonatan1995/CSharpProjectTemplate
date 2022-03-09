@@ -1,0 +1,68 @@
+{
+  "uuid": "c6b8e3e9-2edc-48a0-aebc-352f8f70afb4-tr-0-1003",
+  "historyId": "CSharpProjectTemplate.test.tests.TestLoginSample.login",
+  "fullName": "CSharpProjectTemplate.test.tests.TestLoginSample.login",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-HEAJH3M"
+    },
+    {
+      "name": "package",
+      "value": "CSharpProjectTemplate.test.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "login"
+    },
+    {
+      "name": "testClass",
+      "value": "TestLoginSample"
+    }
+  ],
+  "links": [],
+  "name": "login",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.NullReferenceException : Object reference not set to an instance of an object.\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+    "trace": "   at CSharpProjectTemplate.main.utils.WaitForHelper.implicitWait() in C:\\Users\\Yonat\\Desktop\\CSharpProjectTemplate\\CSharpProjectTemplate\\main\\utils\\WaitForHelper.cs:line 28\r\n   at CSharpProjectTemplate.test.Base.TestBase.setUp() in C:\\Users\\Yonat\\Desktop\\CSharpProjectTemplate\\CSharpProjectTemplate\\test\\Base\\TestBase.cs:line 38\r\n--TearDown\r\n   at CSharpProjectTemplate.test.Base.TestBase.tearDown() in C:\\Users\\Yonat\\Desktop\\CSharpProjectTemplate\\CSharpProjectTemplate\\test\\Base\\TestBase.cs:line 49"
+  },
+  "stage": "finished",
+  "description": "\nsetUp SetUp method failed\n\ntearDown TearDown method failed\nVerify form saved after fill.\n",
+  "steps": [
+    {
+      "name": "login skipped because of setUp failure",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.NullReferenceException : Object reference not set to an instance of an object.\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at CSharpProjectTemplate.main.utils.WaitForHelper.implicitWait() in C:\\Users\\Yonat\\Desktop\\CSharpProjectTemplate\\CSharpProjectTemplate\\main\\utils\\WaitForHelper.cs:line 28\r\n   at CSharpProjectTemplate.test.Base.TestBase.setUp() in C:\\Users\\Yonat\\Desktop\\CSharpProjectTemplate\\CSharpProjectTemplate\\test\\Base\\TestBase.cs:line 38\r\n--TearDown\r\n   at CSharpProjectTemplate.test.Base.TestBase.tearDown() in C:\\Users\\Yonat\\Desktop\\CSharpProjectTemplate\\CSharpProjectTemplate\\test\\Base\\TestBase.cs:line 49"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "8f217cb148914483b345d2c7276d1fc7-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1646813906988,
+      "stop": 1646813909029
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1646813906988,
+  "stop": 1646813909029
+}

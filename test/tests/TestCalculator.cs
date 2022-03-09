@@ -1,5 +1,6 @@
 ﻿using CSharpProjectTemplate.main.bussinessProcess;
 using CSharpProjectTemplate.main.utils;
+using CSharpProjectTemplate.test.Base;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
@@ -10,7 +11,7 @@ namespace CSharpProjectTemplate.test.tests
     /**
     * This is Windows Applications example test.
      */
-    class TestCalculator
+    class TestCalculator:TestBase
     {
         /**
         * This is an addition example test using windows calculator.

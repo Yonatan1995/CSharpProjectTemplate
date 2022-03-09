@@ -1,7 +1,9 @@
 ﻿using log4net.Core;
 using NUnit.Framework;
 using OpenQA.Selenium;
+using OpenQA.Selenium.Appium;
 using OpenQA.Selenium.Appium.Enums;
+using OpenQA.Selenium.Appium.Windows;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Edge;
 using OpenQA.Selenium.Firefox;

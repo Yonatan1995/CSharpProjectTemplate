@@ -1,0 +1,68 @@
+{
+  "uuid": "958f471c-9d8b-4771-99dd-19f6cb53613f-tr-0-1004",
+  "historyId": "CSharpProjectTemplate.test.tests.TestLoginSample.fillForm",
+  "fullName": "CSharpProjectTemplate.test.tests.TestLoginSample.fillForm",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-HEAJH3M"
+    },
+    {
+      "name": "package",
+      "value": "CSharpProjectTemplate.test.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "fillForm"
+    },
+    {
+      "name": "testClass",
+      "value": "TestLoginSample"
+    }
+  ],
+  "links": [],
+  "name": "fillForm",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.NullReferenceException : Object reference not set to an instance of an object.\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+    "trace": "   at CSharpProjectTemplate.main.utils.WaitForHelper.implicitWait() in C:\\Users\\Yonat\\Desktop\\CSharpProjectTemplate\\CSharpProjectTemplate\\main\\utils\\WaitForHelper.cs:line 28\r\n   at CSharpProjectTemplate.test.Base.TestBase.setUp() in C:\\Users\\Yonat\\Desktop\\CSharpProjectTemplate\\CSharpProjectTemplate\\test\\Base\\TestBase.cs:line 38\r\n--TearDown\r\n   at CSharpProjectTemplate.test.Base.TestBase.tearDown() in C:\\Users\\Yonat\\Desktop\\CSharpProjectTemplate\\CSharpProjectTemplate\\test\\Base\\TestBase.cs:line 49"
+  },
+  "stage": "finished",
+  "description": "\nsetUp SetUp method failed\n\ntearDown TearDown method failed\nVerify form saved after fill.\n",
+  "steps": [
+    {
+      "name": "fillForm skipped because of setUp failure",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.NullReferenceException : Object reference not set to an instance of an object.\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at CSharpProjectTemplate.main.utils.WaitForHelper.implicitWait() in C:\\Users\\Yonat\\Desktop\\CSharpProjectTemplate\\CSharpProjectTemplate\\main\\utils\\WaitForHelper.cs:line 28\r\n   at CSharpProjectTemplate.test.Base.TestBase.setUp() in C:\\Users\\Yonat\\Desktop\\CSharpProjectTemplate\\CSharpProjectTemplate\\test\\Base\\TestBase.cs:line 38\r\n--TearDown\r\n   at CSharpProjectTemplate.test.Base.TestBase.tearDown() in C:\\Users\\Yonat\\Desktop\\CSharpProjectTemplate\\CSharpProjectTemplate\\test\\Base\\TestBase.cs:line 49"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "4a023e1d99804518bf360c2a39aa1a66-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1646821731591,
+      "stop": 1646821733414
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1646821731590,
+  "stop": 1646821733418
+}

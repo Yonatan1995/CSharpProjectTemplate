@@ -1,17 +1,21 @@
 ﻿using CSharpProjectTemplate.main.bussinessProcess;
 using CSharpProjectTemplate.main.utils;
 using CSharpProjectTemplate.test.Base;
+using NUnit.Allure.Core;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading;
 
 namespace CSharpProjectTemplate.test.tests
 {
     /**
     * This is an example of two tests on Test Project Demo website.
     */
-    class TestLoginSample:TestBase
+    [AllureNUnit]
+    [TestFixture]
+    class TestLoginSample :TestBase
     {
 
         /**
@@ -39,6 +43,8 @@ namespace CSharpProjectTemplate.test.tests
             String result = TestProjectExampleWebSite.fillTestProjectForm(driver);
             Assert.AreEqual(result, Constants.EXPECTED_TEXT);
             Logger.endTestCase("Fill Form");
+            //Thread.Sleep(2000);
+
         }
     }
 }
