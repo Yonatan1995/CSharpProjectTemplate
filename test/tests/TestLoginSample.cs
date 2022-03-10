@@ -6,7 +6,6 @@ using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 using System.Text;
-using System.Threading;
 
 namespace CSharpProjectTemplate.test.tests
 {
@@ -43,7 +42,6 @@ namespace CSharpProjectTemplate.test.tests
             String result = TestProjectExampleWebSite.fillTestProjectForm(driver);
             Assert.AreEqual(result, Constants.EXPECTED_TEXT);
             Logger.endTestCase("Fill Form");
-            //Thread.Sleep(2000);
 
         }
     }

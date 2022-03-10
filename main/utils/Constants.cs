@@ -47,25 +47,25 @@ namespace CSharpProjectTemplate.main.utils
         // Mobile
 
         // Application UD_ID.
-        public const String UD_ID = "";
+        public const String UD_ID = "LGD85528c94d24";
 
         // Application package.
-        public const String APP_PACKAGE = "";
+        public const String APP_PACKAGE = "com.experitest.ExperiBank";
 
         // Application activity.
         public const String APP_ACTIVITY = ".MainActivity";
 
         // Driver URL.
-        public const String DRIVER_URL = "";
+        public const String DRIVER_URL = "http://localhost:4723/wd/hub";
 
         // Report directory name.
-        public const String REPORT_DIRECTORY = "";
+        public const String REPORT_DIRECTORY = "reports";
 
         // Report format.
         public const String REPORT_FORMAT = "xml";
 
         // Test name.
-        public const String TEST_NAME = "";
+        public const String TEST_NAME = "Mobile Example";
 
 
         // Test Project Demo Login credentials and form data.

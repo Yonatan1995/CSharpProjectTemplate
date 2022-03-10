@@ -18,6 +18,9 @@ namespace CSharpProjectTemplate.main.utils
         // Desktop Pages
         public static DesktopCalculatorPage desktopCalculatorPage;
 
+        // Mobile pages
+        public static MobileLoginPage mobileLoginPage;
+
         /**
          * This method initializes web pages.
          */
@@ -42,7 +45,7 @@ namespace CSharpProjectTemplate.main.utils
          */
         public static void initMobilePages()
         {
-            // Mobile pages
+            mobileLoginPage = new MobileLoginPage(DriverManager.driver);
         }
     }
 }
