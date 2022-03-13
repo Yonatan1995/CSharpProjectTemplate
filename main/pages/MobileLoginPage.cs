@@ -18,10 +18,10 @@ namespace CSharpProjectTemplate.main.pages
         }
 
         // Elements Locators.
-        private By username = By.XPath(ElementsRepoConstants.eri_username_xpath);
-        private By password = By.XPath(ElementsRepoConstants.eri_password_xpath);
-        private By loginButton = By.XPath(ElementsRepoConstants.eri_login_button_xpath);
-        private By logoutButton = By.XPath(ElementsRepoConstants.eri_logout_button_xpath);
+        private By username = By.XPath(ElementsRepoConstants.ERI_USERNAME_XPATH);
+        private By password = By.XPath(ElementsRepoConstants.ERI_PASSWORD_XPATH);
+        private By loginButton = By.XPath(ElementsRepoConstants.ERI_LOGIN_BUTTON_XPATH);
+        private By logoutButton = By.XPath(ElementsRepoConstants.ERI_LOGOUT_BUTTON_XPATH);
 
         /**
          * This method return the username input element.

@@ -18,10 +18,10 @@ namespace CSharpProjectTemplate.main.bussinessProcess
         //@Step("Addition between two numbers example")
         public static String performAddition()
         {
-            CommonMethods.click(ManagePages.desktopCalculatorPage.getNumber(ElementsRepoConstants.first_number));
-            CommonMethods.click(ManagePages.desktopCalculatorPage.getMathSign(ElementsRepoConstants.math_sign_plus));
-            CommonMethods.click(ManagePages.desktopCalculatorPage.getNumber(ElementsRepoConstants.second_number));
-            CommonMethods.click(ManagePages.desktopCalculatorPage.getNumber(ElementsRepoConstants.math_sign_equals));
+            CommonMethods.click(ManagePages.desktopCalculatorPage.getNumber(ElementsRepoConstants.FIRST_NUMBER));
+            CommonMethods.click(ManagePages.desktopCalculatorPage.getMathSign(ElementsRepoConstants.MATH_SIGN_PLUS));
+            CommonMethods.click(ManagePages.desktopCalculatorPage.getNumber(ElementsRepoConstants.SECOND_NUMBER));
+            CommonMethods.click(ManagePages.desktopCalculatorPage.getNumber(ElementsRepoConstants.MATH_SIGN_EQUALS));
             return ManagePages.desktopCalculatorPage.getResult();
         }
     }

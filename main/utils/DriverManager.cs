@@ -145,7 +145,6 @@ namespace CSharpProjectTemplate.main.utils
             dc.SetCapability(AndroidMobileCapabilityType.AppPackage, Constants.APP_PACKAGE);
             dc.SetCapability(AndroidMobileCapabilityType.AppActivity, Constants.APP_ACTIVITY);
             driver = new RemoteWebDriver(new Uri(Constants.DRIVER_URL), dc);
-            //driver.setLogLevel(Level.Info);
         }
 
 

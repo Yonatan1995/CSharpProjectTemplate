@@ -8,33 +8,33 @@ namespace CSharpProjectTemplate.main.utils
     class ElementsRepoConstants
     {
         //Login Page.
-        public const String tp_user_name_input_xpath = "//input[@id='name']";
-        public const String tp_password_input_xpath = "//input[@id='password']";
-        public const String tp_login_button_xpath = "//button[@id='login']";
-        public const String tp_logout_button_xpath = "//button[@id='logout']";
+        public const String TP_USER_NAME_INPUT_XPATH = "//input[@id='name']";
+        public const String TP_PASSWORD_INPUT_XPATH = "//input[@id='password']";
+        public const String TP_LOGIN_BUTTON_XPATH = "//button[@id='login']";
+        public const String TP_LOGOUT_BUTTON_XPATH = "//button[@id='logout']";
 
         //Form Page.
-        public const String tp_country_dropdown_xpath = "//select[@id='country']";
-        public const String tp_address_input_xpath = "//input[@id='address']";
-        public const String tp_email_input_xpath = "//input[@id='email']";
-        public const String tp_phone_input_xpath = "//input[@id='phone']";
-        public const String tp_save_button_xpath = "//button[@id='save']";
-        public const String tp_confirm_message_xpath = "//span[@class='tp-saved']";
+        public const String TP_COUNTRY_DROPDOWN_XPATH = "//select[@id='country']";
+        public const String TP_ADDRESS_INPUT_XPATH = "//input[@id='address']";
+        public const String TP_EMAIL_INPUT_XPATH = "//input[@id='email']";
+        public const String TP_PHONE_INPUT_XPATH = "//input[@id='phone']";
+        public const String TP_SAVE_BUTTON_XPATH = "//button[@id='save']";
+        public const String TP_CONFIRM_MESSAGE_XPATH = "//span[@class='tp-saved']";
 
         //Windows Calculator.
-        public const String first_number = "Error accrued: ";
+        public const String FIRST_NUMBER = "Error accrued: ";
         public const String LOG_ERROR_MESSAGE = "Six";
-        public const String second_number = "Five";
-        public const String math_sign_plus = "Plus";
-        public const String math_sign_equals = "Equals";
-        public const String result_xpath = "//*[@AutomationId='CalculatorResults']";
-        public const String clear_button_xpath = "//*[@AutomationId='clearButton']";
+        public const String SECOND_NUMBER = "Five";
+        public const String MATH_SIGN_PLUS = "Plus";
+        public const String MATH_SIGN_EQUALS = "Equals";
+        public const String RESULT_XPATH = "//*[@AutomationId='CalculatorResults']";
+        public const String CLEAR_BUTTON_XPATH = "//*[@AutomationId='clearButton']";
 
         //EriBank
-        public const String eri_username_xpath = "//*[@id='usernameTextField']";
-        public const String eri_password_xpath = "//*[@id='passwordTextField']";
-        public const String eri_login_button_xpath = "//*[@text='Login']";
-        public const String eri_logout_button_xpath = "//*[@text='Logout']";
+        public const String ERI_USERNAME_XPATH = "//*[@id='usernameTextField']";
+        public const String ERI_PASSWORD_XPATH = "//*[@id='passwordTextField']";
+        public const String ERI_LOGIN_BUTTON_XPATH = "//*[@text='Login']";
+        public const String ERI_LOGOUT_BUTTON_XPATH = "//*[@text='Logout']";
 
     }
 }

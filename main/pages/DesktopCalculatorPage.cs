@@ -48,7 +48,7 @@ namespace CSharpProjectTemplate.main.pages
          */
         public String getResult()
         {
-            return driver.FindElement(By.XPath(ElementsRepoConstants.result_xpath))
+            return driver.FindElement(By.XPath(ElementsRepoConstants.RESULT_XPATH))
                     .Text.Replace("Display is:", "").Trim();
         }
 
@@ -59,7 +59,7 @@ namespace CSharpProjectTemplate.main.pages
          */
         public IWebElement getClear()
         {
-            return driver.FindElement(By.XPath(ElementsRepoConstants.clear_button_xpath));
+            return driver.FindElement(By.XPath(ElementsRepoConstants.CLEAR_BUTTON_XPATH));
         }
     }
 }

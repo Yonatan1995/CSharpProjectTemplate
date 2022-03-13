@@ -19,18 +19,12 @@ namespace CSharpProjectTemplate.main.pages
         }
 
         // Elements Locators.
-        //private By countries = By.XPath(PropertyReader.readElementsRepoItem("tp_country_dropdown_xpath"));
-        //private By address = By.XPath(PropertyReader.readElementsRepoItem("tp_address_input_xpath"));
-        //private By email = By.XPath(PropertyReader.readElementsRepoItem("tp_email_input_xpath"));
-        //private By phone = By.XPath(PropertyReader.readElementsRepoItem("tp_phone_input_xpath"));
-        //private By saveButton = By.XPath(PropertyReader.readElementsRepoItem("tp_save_button_xpath"));
-        //private By confirmMessage = By.XPath(PropertyReader.readElementsRepoItem("tp_confirm_message_xpath"));
-        private By countries = By.XPath(ElementsRepoConstants.tp_country_dropdown_xpath);
-        private By address = By.XPath(ElementsRepoConstants.tp_address_input_xpath);
-        private By email = By.XPath(ElementsRepoConstants.tp_email_input_xpath);
-        private By phone = By.XPath(ElementsRepoConstants.tp_phone_input_xpath);
-        private By saveButton = By.XPath(ElementsRepoConstants.tp_save_button_xpath);
-        private By confirmMessage = By.XPath(ElementsRepoConstants.tp_confirm_message_xpath);
+        private By countries = By.XPath(ElementsRepoConstants.TP_COUNTRY_DROPDOWN_XPATH);
+        private By address = By.XPath(ElementsRepoConstants.TP_ADDRESS_INPUT_XPATH);
+        private By email = By.XPath(ElementsRepoConstants.TP_EMAIL_INPUT_XPATH);
+        private By phone = By.XPath(ElementsRepoConstants.TP_PHONE_INPUT_XPATH);
+        private By saveButton = By.XPath(ElementsRepoConstants.TP_SAVE_BUTTON_XPATH);
+        private By confirmMessage = By.XPath(ElementsRepoConstants.TP_CONFIRM_MESSAGE_XPATH);
 
 
         /**

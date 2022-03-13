@@ -41,7 +41,7 @@ namespace CSharpProjectTemplate.main.utils
             Log.Info("X");
 
         }
-
+       
 
         // Log level methods
 
@@ -49,7 +49,6 @@ namespace CSharpProjectTemplate.main.utils
         {
 
             Log.Info(message);
-
         }
 
         public static void warn(String message)
