@@ -1,0 +1,44 @@
+{
+  "uuid": "3f5f9580-4376-466a-bb3f-023993c4e3ad-tc-0-1000",
+  "name": "CSharpProjectTemplate.test.tests.TestCalculator.additionTest",
+  "children": [
+    "ea199b50-d85a-4567-8dd3-281de19b8517-tr-0-1001"
+  ],
+  "befores": [
+    {
+      "name": "setUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1647180510394,
+      "stop": 1647180510394
+    }
+  ],
+  "afters": [
+    {
+      "name": "tearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1647180510394,
+      "stop": 1647180510394
+    }
+  ],
+  "links": [],
+  "start": 1647180507954,
+  "stop": 1647180510433
+}

@@ -1,0 +1,65 @@
+{
+  "uuid": "39f7cee0-50d7-44f7-b2b6-c1c0bb60f9a5-tr-0-1004",
+  "historyId": "CSharpProjectTemplate.test.tests.TestLoginSample.fillForm",
+  "fullName": "CSharpProjectTemplate.test.tests.TestLoginSample.fillForm",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-HEAJH3M"
+    },
+    {
+      "name": "package",
+      "value": "CSharpProjectTemplate.test.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "fillForm"
+    },
+    {
+      "name": "testClass",
+      "value": "TestLoginSample"
+    }
+  ],
+  "links": [],
+  "name": "fillForm",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "fillForm"
+  },
+  "stage": "finished",
+  "description": "Verify form saved after fill.\n",
+  "steps": [
+    {
+      "name": "fillForm",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "9171e924f84d4f23a2811c981b11915b-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1647180510446,
+      "stop": 1647180515289
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1647180510446,
+  "stop": 1647180515290
+}

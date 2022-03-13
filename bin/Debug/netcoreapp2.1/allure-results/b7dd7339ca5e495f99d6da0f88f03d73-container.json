@@ -1,0 +1,44 @@
+{
+  "uuid": "76fa3c82-e7d0-4b56-a8fc-c49534c9618b-tc-0-1002",
+  "name": "CSharpProjectTemplate.test.tests.TestLoginSample.login",
+  "children": [
+    "39484ac4-f61e-458f-b757-e541c68ec02f-tr-0-1003"
+  ],
+  "befores": [
+    {
+      "name": "setUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1647180854467,
+      "stop": 1647180854467
+    }
+  ],
+  "afters": [
+    {
+      "name": "tearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1647180854468,
+      "stop": 1647180854468
+    }
+  ],
+  "links": [],
+  "start": 1647180850618,
+  "stop": 1647180854500
+}

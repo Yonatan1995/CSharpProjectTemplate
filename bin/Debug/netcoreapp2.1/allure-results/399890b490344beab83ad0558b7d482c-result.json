@@ -1,0 +1,68 @@
+{
+  "uuid": "ea199b50-d85a-4567-8dd3-281de19b8517-tr-0-1001",
+  "historyId": "CSharpProjectTemplate.test.tests.TestCalculator.additionTest",
+  "fullName": "CSharpProjectTemplate.test.tests.TestCalculator.additionTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-HEAJH3M"
+    },
+    {
+      "name": "package",
+      "value": "CSharpProjectTemplate.test.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "additionTest"
+    },
+    {
+      "name": "testClass",
+      "value": "TestCalculator"
+    }
+  ],
+  "links": [],
+  "name": "additionTest",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.NullReferenceException : Object reference not set to an instance of an object.",
+    "trace": "   at CSharpProjectTemplate.main.bussinessProcess.CalculatorExample.performAddition() in C:\\Users\\Yonat\\Desktop\\CSharpProjectTemplate\\CSharpProjectTemplate\\main\\bussinessProcess\\CalculatorExample.cs:line 21\r\n   at CSharpProjectTemplate.test.tests.TestCalculator.additionTest() in C:\\Users\\Yonat\\Desktop\\CSharpProjectTemplate\\CSharpProjectTemplate\\test\\tests\\TestCalculator.cs:line 25"
+  },
+  "stage": "finished",
+  "description": "Addition test.\n",
+  "steps": [
+    {
+      "name": "additionTest",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at CSharpProjectTemplate.main.bussinessProcess.CalculatorExample.performAddition() in C:\\Users\\Yonat\\Desktop\\CSharpProjectTemplate\\CSharpProjectTemplate\\main\\bussinessProcess\\CalculatorExample.cs:line 21\r\n   at CSharpProjectTemplate.test.tests.TestCalculator.additionTest() in C:\\Users\\Yonat\\Desktop\\CSharpProjectTemplate\\CSharpProjectTemplate\\test\\tests\\TestCalculator.cs:line 25"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "0be2327b00b645409b6862fb09dbdd02-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1647180507958,
+      "stop": 1647180510404
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1647180507957,
+  "stop": 1647180510411
+}
